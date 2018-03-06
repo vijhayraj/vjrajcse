@@ -7,7 +7,6 @@ cout<<"enter the first time and hour";
 cin>>hr1>>min1;
 cout<<"enter the second time and hour";
 cin>>hr2>>min2;
-
 if(hr1>hr2)
 {
 hr=hr1-hr2;
