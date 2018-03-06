@@ -2,18 +2,15 @@
 using namespace std;
 int main()
 {
-    int a,b,i;
+  int m,n,i;
     cout<<"enter the valueof aand b";
     cin>>a>>b;
-    for(i=a;i<b;i++)
+    for(i=m;i<n;i++)
     {
-         a=a+1;
+       a=a+1;
         if(a%2==1)
         {
-       
-         cout<<"the values are"<<a<<endl;
+       cout<<"the values are"<<a<<endl;
         }
-       
-    }
-    
-}
+        }
+   }
