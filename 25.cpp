@@ -29,7 +29,7 @@ int main()
     {
      cout<<"the sorted elements are"<<arr[i]<<"\t";
     }
-    med = arr[(n/2)+1];
+    med = arr[(m/2)+1];
     cout<<"Therefore the median number in the array is:"<<med;
    return 0;
 }
