@@ -10,6 +10,7 @@ int main()
    cout<<"Enter the string :";
    getline(cin,a);
    for(i=0;i<a.size();++i)
+    
     {
         if(i==0)
         {
