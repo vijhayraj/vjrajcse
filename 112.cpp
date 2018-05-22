@@ -1,20 +1,25 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
-
 {
-int num,a=0;
-cout<<"Enter any num : ";
-cin>>num;
-while(m>0)
-
-{
-num=num/10;
-a++;
+    int k,i,a[3],n;
+    cout<<"enter the two variables";
+    cin>>n>>k;
+    for(i=1;i<=n;i++)
+  
+    {
+        cin>>a[i];
+    }
+  
+    for(i=1;i<=n;i++)
+   
+    {
+    if(a[i]==k)
+    {
+        cout<<"yes";
+    }
+  }
 }
 
-cout<<"\n no. of digits in given number is: "<<a;
-return 0;
-
-}
